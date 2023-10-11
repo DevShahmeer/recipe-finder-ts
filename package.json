@@ -1,0 +1,16 @@
+
+
+{
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
